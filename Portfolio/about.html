@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="shortcut icon" href="./assets/images/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <div class="zoom-in">
+            <img src="./assets/images/myphoto.jpg" alt="Image Error" width="80" style="border-radius: 10px;">
+          </div>
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ayush">Ayush Pal</h1>
+
+          <p class="title">Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:thisiayush07@gmail.com" target="_blank" class="contact-link">thisisayush07@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918303859704" class="contact-link">+91-83038-59704</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Date of Birth</p>
+
+              <time datetime="1990-10-16">March 07, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>DIT University, Dehradun</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/07ayush03" target=”_blank” class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/pal-ayush/" target=”_blank” class="social-link">
+              <ion-icon name="logo-LinkedIn"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <div class="main-content">
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="about.html"><button class="navbar-link active" data-nav-link>About</button></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="academics.html"><button class="navbar-link" data-nav-link>Academics</button></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="portfolio.html"><button class="navbar-link" data-nav-link>Portfolio</button></a>
+          </li>
+          <!-- 
+          <li class="navbar-item">
+            <a href="contact.html"><button class="navbar-link" data-nav-link>Contact</button></a>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">My Brief</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            During my final year in the College of Engineering at DIT University,
+            I've learned how valuable it is to blend traditional methods with modern approaches.
+          </p>
+
+          <p>
+            » I am a detail-oriented and multitasking professional with a Bachelor's degree in Computer Science
+            Technology.<br><br>
+            » I possess comprehensive knowledge of key programming languages such as C and Java, with a special talent
+            for developing highly competent programs.<br><br>
+            » My expertise extends to software development environments, where I excel in crafting critical solutions.
+            » I am known for my punctuality, motivation, and ability to thrive in busy environments while consistently
+            delivering high-quality work.<br><br>
+            » Punctual and motivated person who can work in a busy environment and produce high standards of
+            work.<br><br>
+            » I have a strong grasp of modern operating systems and extensive experience in troubleshooting them.
+            » Additionally, I excel in presenting information effectively and ensuring understanding among diverse
+            audiences. <br><br>
+          </p>
+          <p>
+            Apart from academics, I'm currently holding the position of Vice-President at Computer Society of India,
+            DITU ,the national body representing computer professionals in India.<br>
+          </p>
+          <p>
+            Loves cooking and travelling
+            <br><br>─ Cloud Developer and Analyst <br> ─ Blockchain Analyst<br> ─ Software Engineer
+          </p>
+        </section>
+
+
+        <!-- <section class="service">
+
+          <h3 class="h3 service-title">Interested Domain</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box"> -->
+        <!-- <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40"> -->
+        <!-- </div>
+              <span class="material-symbols-outlined cloud">
+                cloud
+              </span>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud development</h4>
+
+                <p class="service-item-text">
+                  Comfortable working with both the front and back ends.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Consumes enough knowledge to build a Mobile app from scratch.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Solving Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Problem Solving</h4>
+
+                <p class="service-item-text">
+                  Anslysing the problem, Developing the algorithm, Coding.
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/paintbrush-solid.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic designing</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/bug-solid.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Clean Coding</h4>
+
+                <p class="service-item-text">
+                  Every piece of code is easily understandable with minimal efforts.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+        </section> -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Certificates</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/consulting-icon.png" alt="Technical Consultant" width="60"
+                    data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h5 testimonials-item-title" data-testimonials-title>Technical Consultant</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+
+                    I just took part in SAP's Technical Consulting job simulation virtual program on the Forage
+                    platform, which was
+                    quite instructive in understanding what it would be like to work on a Technical Consulting team at
+                    SAP.
+
+                    I embarked on a project to assist a hypothetical shoe retailer, Fond Rouge, which was experiencing
+                    diminishing sales in the United States. I used SAP Analytics Cloud (SAC) to analyze data and create
+                    a dashboard. I also practiced my customer communication and presentation abilities in a real-world
+                    setting.
+
+                    This program proved that I enjoy working with data to solve client problems, and I'm looking forward
+                    to applying my skills on a Technical Consulting team at a company like SAP.
+
+                  </p>
+                  <p>
+                    <a href="./assets/Documents/SAP_Technical_consultant.pdf" target="_blank">View certificate</a>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/analytics_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Cybersecurity Analyst"
+                    width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h5 testimonials-item-title" data-testimonials-title>Cybersecurity Analyst
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I recently took part in a job simulation program hosted by Tata Consultancy Services on the Forage
+                    platform,
+                    and it was a really helpful way to get a sense of what it may be like to work as a member of their
+                    cybersecurity consulting team. Enhancing identification and access management strategies was the
+                    project I worked on. Using industry-standard IAM tools, I developed my cybersecurity abilities in a
+                    practical setting. My enjoyment of solving cybersecurity problems has been validated by this
+                    program, and I can't wait to use these abilities in a cybersecurity consulting team at a business
+                    like Tata Consultancy Services.
+
+                  </p>
+                  <p>
+                    <a href="./assets/Documents/TATA_Cybersecurity.pdf" target="_blank">View certificate</a>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/software-engineering-icon.svg" alt="java" width="60"
+                    data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Software Engineering</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Goldman Sachs' software engineer virtual program on Forage offers a
+                    comprehensive and immersive
+                    learning experience for aspiring software engineers. Participants gain exposure
+                    to the diverse range
+                    of technologies and programming languages used at Goldman Sachs while working on
+                    real-world projects
+                    and challenges. Through interactive modules and hands-on simulations,
+                    participants develop key
+                    technical skills, enhance their problem-solving abilities, and gain insights
+                    into the intricacies of
+                    software development within the finance industry. With guidance from industry
+                    professionals,
+                    participants receive valuable mentorship and networking opportunities,
+                    positioning them for success
+                    in their future software engineering careers.</p>
+                  <p>
+                    To View certificate <a href="./assets/Documents/Goldman Sachs(Forage) Virtual Experience.pdf"
+                      target="_blank">Click
+                      here.</a>
+                  </p>
+                </div>
+
+              </div>
+            </li> -->
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/enhanced_encryption_24dp_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt="Integrity Protection" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Integrity Protection</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    After completing the cryptographic course, I feel like I have a solid understanding of the delicate
+                    art of securing information using encryption and decoding procedures. Exploring the algorithms and
+                    protocols that underpin modern cryptography has not only broadened my technical understanding, but
+                    also increased my awareness for cryptography's important role in ensuring data integrity,
+                    confidentiality, and authentication. Armed with this knowledge, I am ready to make a significant
+                    contribution to the industry, assuring strong security solutions in an increasingly digital
+                    environment.</p>
+                  <p>
+                    <a href="./assets/Documents/Cryptographic.pdf" target="_blank">View certificate</a>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/software-engineering-icon.svg" alt="java" width="60"
+                    data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Software Engineering</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    In the software engineering lite virtual experience program, I dedicated myself
+                    wholeheartedly to
+                    expanding my expertise in the world of software engineering. With unwavering
+                    determination and a
+                    thirst for knowledge, I embarked on a journey of hard work and continuous
+                    learning. My journey in
+                    this program has been a transformative experience,
+                    shaping me into a confident and skilled software engineer. I am grateful for the
+                    opportunity to have
+                    participated in this program, and I am excited to embrace the challenges and
+                    opportunities that lie
+                    ahead in my software engineering career.</p>
+                  <p>
+                    To View certificate <a href="./assets/Documents/JP_Morgan_Forage.pdf" target="_blank">Click
+                      here.</a>
+                  </p>
+                </div>
+
+              </div>
+            </li> -->
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/lock_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="cyber" width="60"
+                    data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Cyber Security professional</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    A major turning point in my professional trajectory has been reaching the completion of the
+                    cybersecurity professional course. I now have a thorough understanding of the risk management,
+                    incident response, and threat detection techniques that are necessary for protecting digital assets.
+                    The training has given me the practical knowledge I need to properly minimize cyber dangers, from
+                    studying sophisticated network security tactics to mastering ethical hacking methodologies. I am now
+                    ready to actively contribute to strengthening cybersecurity frameworks inside businesses,
+                    guaranteeing strong defenses against new dangers in the current digital environment.</p>
+                  <p>
+                    <a href="./assets/Documents/Google_cybersecurity.pdf" target="_blank">View certificate</a>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/java.svg" alt="java" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Java(Basic)</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Dedicated and hardworking Java developer with 3 years of experience in
+                    developing, designing and
+                    delivering user-centric applications Java technologies. Proficient in using a
+                    wide variety of tools
+                    and developing high-quality applications and software to boost productivity and
+                    efficiency. Skilled at creating applications that consume 35% less memory.</p>
+                  <p>
+                    To View certificate <a href="https://www.hackerrank.com/certificates/1aaf6f533681"
+                      target="_blank">Click
+                      here.</a>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/python.svg" alt="Python" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Python(Basic)</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Certified Python Developer offering 6 years of extensive experience and
+                    exceptional analytical and
+                    critical thinking skills. Delivers a proactive approach, great work ethic, and
+                    the ability to
+                    function well.</p>
+                  <p>
+                    To View certificate <a href="https://www.hackerrank.com/certificates/e9bdb1d837cd"
+                      target="_blank">Click
+                      here.</a>
+                  </p>
+                </div>
+
+              </div>
+            </li> -->
+
+            <!-- <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/redhat.svg" alt="Ethical hacking" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h5 testimonials-item-title" data-testimonials-title>Certified Ethical Hacker
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Completed a certified ethical hacking course from Stupidskills.
+                    Profound knowledge of Networking Security, Ethical Hacking, and Cyber Security.
+                    Sound knowledge in
+                    Metasploit Framework and Social Engineering. Hands on experience of security
+                    appliance like
+                    Firewalls. -->
+            <!-- Start of CuterCounter Code -->
+            <!-- <a href="https://www.cutercounter.com/" target="_blank"><img
+                        src="https://www.cutercounter.com/hits.php?id=hrmxonaqa&nd=1&style=1" border="0"
+                        alt="website counter"></a> -->
+            <!-- End of CuterCounter Code -->
+            <!-- </p>
+                  <p>
+                    To View certificate <a href="./assets/Documents/Ethical Hacking Cartificate.pdf"
+                      target="_blank">Click
+                      here.</a>
+                  </p>
+                </div>
+
+              </div>
+
+            </li> -->
+
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/enhanced_encryption_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Java</h4>
+              <div data-modal-text>
+              </div>
+
+
+            </div>
+
+          </section>
+
+        </div> 
+
+      </article>
+
+    </div>
+
+
+  </main>
+
+  <script src="./assets/js/about.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
